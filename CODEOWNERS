@@ -1,0 +1,12 @@
+# Who must approve a pull request before it reaches main.
+#
+# VoltConnect fills in {{CODE_OWNERS}} when it creates the repository:
+#   - VoltConnect projects: @voltconnect-developer-hub/staff
+#   - Group projects: the organiser's GitHub username and @voltconnect-developer-hub/staff
+#
+# Changes to this file, to .github/ and to the licence need the same approval as code.
+
+*               {{CODE_OWNERS}}
+/.github/       {{CODE_OWNERS}}
+/CODEOWNERS     {{CODE_OWNERS}}
+/LICENSE        {{CODE_OWNERS}}
